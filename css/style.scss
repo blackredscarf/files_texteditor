@@ -1,6 +1,6 @@
 #editor_container div{
 	/* override core style.css font-size:100% that messes up the editor in IE8 */
-	font-size: 13px !important;
+	font-size: 14px !important;
 }
 
 #editor_controls {
@@ -104,13 +104,14 @@
 
 #editor_container #preview {
 	transition: width 0.5s;
-	width: 50vw;
+	max-width: 1000px;
+    margin: 0 auto;
 	overflow: auto;
 	box-sizing: border-box;
 	padding: 0 15px 15px;
 	height: 100%;
 	color: #252525;
-	background-color: #f9f9f9;
+	background-color: #fff;
 }
 
 @media(max-width: 768px) {
